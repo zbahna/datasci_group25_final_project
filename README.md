@@ -14,9 +14,6 @@ The project is an interactive Shiny web application exploring trends in baby nam
 - `EXAMPLE2.R`  
   Main Shiny application file.
 
-- `data/`  
-  Folder for any data files used in the app (e.g. `names.csv`).
-
 - `README.md`  
   This file, with instructions on how to run the app locally.
 
