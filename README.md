@@ -8,11 +8,11 @@ The project is an interactive Shiny web application exploring trends in baby nam
 
 ## Repository Structure
 
-- `EXAMPLE1.R`  
+- `Data_Cleaning.R`  
   Data cleaner file allowing our main application to run on shiny.io
 
-- `EXAMPLE2.R`  
-  Main Shiny application file.
+- `Main_Code.R`  
+  Main Shiny application file (source code).
 
 - `README.md`  
   This file, with instructions on how to run the app locally.
@@ -30,14 +30,15 @@ To run this project locally, you need:
   - `dplyr`
   - `ggplot2`
   - `babynames`
+  - `tibble`
 
 ---
 
 ## How to Run Code
 
-First, run the Cleaner file in order to clean up the data. Otherwise, there's too much data for shiny.io to process (it still works in RStudio regardless, but it won't work on shiny.io unless you run this step).
+First, run the Data_Cleaning file in order to clean up the data. Otherwise, there's too much data in our dataset for shiny.io to process (it still works in RStudio regardless, but it won't work on shiny.io unless you run this step).
 
-Next, run the main source code as normal and interact with the app as designed.
+Next, run Main_Code (main source code) as normal and interact with the app as designed.
 
 
 
